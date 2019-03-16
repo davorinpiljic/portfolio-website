@@ -103,6 +103,7 @@ input, select, textarea {
 		color: #888;
 		font-weight: 300;
 		font-size: 13pt;
+		
 	}
 
 	a {
@@ -214,11 +215,20 @@ input, select, textarea {
 		}
 
 	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		margin: 3em 0 0 0;
 	}
 
 		footer > p {
 			font-size: 1.25em;
+		}
+
+		#work-footer {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
 /* Container */
@@ -288,7 +298,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
 	}
 
 		.row > * {
@@ -1934,7 +1944,8 @@ input, select, textarea {
 			left: 2em;
 			top: 2em;
 			margin: -4em 0 4em -4em;
-			width: auto;
+			width: 384px;
+			height: 269px;
 		}
 
 /* Icons */
@@ -2429,3 +2440,18 @@ input, select, textarea {
 					}
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* davorin piljic added */
+
